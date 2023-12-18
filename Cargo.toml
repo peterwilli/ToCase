@@ -1,0 +1,13 @@
+[package]
+name = "to_case"
+version = "0.1.0"
+edition = "2021"
+authors = ["Peter Willemsen <peter@codebuffet.co>"]
+
+[dependencies]
+clap = { version = "4.4.11", features = ["derive"] }
+convert_case = "0.6.0"
+log = "0.4.20"
+postcard = { version = "1.0.8", features = ["alloc"] }
+serde = { version = "1.0.193", features = ["derive"] }
+strum = { version = "0.25.0", features = ["derive"] }
